@@ -6,9 +6,7 @@ class Rect
 	Scanner s = new Scanner(System.in);
 	System.out.println("Enter the Length:");
 	int l = s.nextInt();
-	System.out.println("Enter the width:");
-	int w = s.nextInt();
-	int a = l*w;
+	int a = l*l;
 	System.out.println("Area of the Rectangle:"+a);
 }
 }
